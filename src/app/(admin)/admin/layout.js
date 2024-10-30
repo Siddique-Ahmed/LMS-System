@@ -9,11 +9,11 @@ export default function layout({ children }) {
           <Link href="/admin/dashboard">
             <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
           </Link>
-          <Link href={"/admin/batches"}>
-            <TabsTrigger value="batches">Batches</TabsTrigger>
-          </Link>
           <Link href="/admin/courses">
             <TabsTrigger value="courses">Courses</TabsTrigger>
+          </Link>
+          <Link href={"/admin/batches"}>
+            <TabsTrigger value="batches">Batches</TabsTrigger>
           </Link>
           <Link href="/admin/trainers">
             <TabsTrigger value="trainers">Trainers</TabsTrigger>

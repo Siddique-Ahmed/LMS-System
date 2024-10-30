@@ -1,7 +1,14 @@
+import { TrainersTable } from "@/components/dataTables/TrainerTable";
+import { TrainersDialog } from "@/components/modals/TrainerModal";
+
 export default function Trainers(){
   return(
-    <div className="min-h-screen p-10">
-      <h1 className="text-center font-bold text-4xl">Trainers</h1>
+    <div className="min-h-screen py-10">
+      <div className="w-full flex justify-between">
+      <h1 className="text-center font-bold text-2xl">Trainers</h1>
+      <TrainersDialog/>
+      </div>
+      <TrainersTable/>
     </div>
   )
 }
